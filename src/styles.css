@@ -1,0 +1,79 @@
+/* Mobile-first styles */
+.App {
+    text-align: center;
+    background-color: #fff; /* Set the background color of the entire app to white */
+    padding: 20px; /* Add some padding to the entire app */
+  }
+  
+  /* Style for individual boxes */
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px; /* Adjust padding to your desired spacing */
+    text-align: center;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: #e0e0e0; /* Apply a slightly darker gray tint to individual boxes */
+  }
+  
+  .box-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px; /* Default gap for all screen sizes */
+    padding: 50px;
+  }
+  
+  /* Style for the box's h5 element */
+  .box h5 {
+    font-size: 22px;
+    margin: 20px 0; /* Add margin to the top and bottom */
+  }
+  
+  /* Style for the box's image */
+  .box img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintain image aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+  }
+  
+  /* Style for the "Learn More" button */
+  .box button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Center the button within the box */
+  .box button {
+    margin: 0 auto;
+  }
+  
+  /* Tablet and larger screens */
+  @media screen and (min-width: 768px) {
+    .box-container {
+      grid-gap: 30px; /* Increase gap for tablets and larger screens */
+    }
+  
+    .box h5 {
+      font-size: 24px;
+    }
+  }
+  
+  /* Desktop and larger screens */
+  @media screen and (min-width: 1024px) {
+    .box-container {
+      grid-gap: 45px; /* Increase gap for desktop and larger screens */
+    }
+  
+    .box h5 {
+      font-size: 26px;
+    }
+  }
+  
