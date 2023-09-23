@@ -1,4 +1,4 @@
-# Web Development Project 1 - _Name of App Here_
+# Web Development Project 1 - _Project1BrandonOjeda_
 
 Submitted by: **Brandon Ojeda**
 
@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/Ns9JFo0' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
@@ -39,7 +39,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It was a pretty straightforward assignment. It was slightly difficults writing the code for component
 
 ## License
 

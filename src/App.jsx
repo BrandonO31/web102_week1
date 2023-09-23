@@ -19,8 +19,8 @@ function App() {
       <div className="box-container">
        <Box name='Blink Fitness' img='src\assets\BlinkFitness.png' url='https://locations.blinkfitness.com/ny/queens/102-16-liberty-avenue'/>
        <Box name='Planet Fitness' img='src\assets\PlanetFitness.jpeg' url='https://www.planetfitness.com/gyms/queens-jamaica-ny?utm_medium=yext&utm_source=extnet'/>
-       <Box name='Crunch Fitness' img='src\assets\CrunchFitness.jpeg'/>
-       <Box name='Coliseum Gym' img='src\assets\ColiseumGym.jpeg'/>
+       <Box name='Crunch Fitness' img='src\assets\CrunchFitness.jpeg' url='https://www.crunch.com/locations/richmond-hill'/>
+       <Box name='Coliseum Gym' img='src\assets\ColiseumGym.jpeg' url='https://www.instagram.com/coliseumgymofficial/?hl=en'/>
        <Box name='Retro Fitness' img='src\assets\RetroFitness.jpeg'/>
        <Box name='Crossfit Glendale' img='src\assets\CrossfitGlendale.jpeg'/>
        <Box name='NY Sports Club' img='src\assets\NYSportsClub.jpeg'/>
